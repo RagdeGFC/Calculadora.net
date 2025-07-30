@@ -1,0 +1,9 @@
+@model src.Models.Operacion
+
+<h2>Resultado</h2>
+
+<p>
+  @Model.Numero1 @Model.Operador @Model.Numero2 = <strong>@Model.Resultado</strong>
+</p>
+
+<a asp-controller="Calculadora" asp-action="Index">Volver</a>
